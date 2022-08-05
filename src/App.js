@@ -59,7 +59,7 @@ class Starwar extends React.Component{
             <h1>CHARACTER</h1>
             <img src ={this.state.ima} width ='300px' height= "300px" alt ="character"/>
             <p>{this.state.Name}</p>
-            <p>{this.state.Height} cm</p>
+            <p>{this.state.Height} m</p>
             <p>{this.state.Homeworld}</p>
             <ul>
               {/* {
